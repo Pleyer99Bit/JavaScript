@@ -1,3 +1,13 @@
 body, html{
     font-family: Helvetica;
 }
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.item{
+    background-color: lightblue;
+    font-family: "Times New Roman";
+}
