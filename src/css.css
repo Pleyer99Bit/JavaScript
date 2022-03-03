@@ -5,6 +5,8 @@ body, html{
     padding: none;
 }
 .container {
+    width: 100%;
+    height: max-content;
     display: flex;
     flex-direction: column;
     background-color: gray;
