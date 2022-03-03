@@ -1,12 +1,23 @@
 body, html{
     font-family: Helvetica;
+    border: none;
+    margin: none;
+    padding: none;
 }
 .container {
-    grid-template-columns: 100px 50px 100px;
-    grid-template-rows: 80px auto 80px; 
-    column-gap: 10px;
-    row-gap: 15px;
-  }
-.item-a {
-   place-self: center;
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.item{
+    background-color: lightgray;
+}
+img{
+    width: 100px;
+    height: 250px;
 }
