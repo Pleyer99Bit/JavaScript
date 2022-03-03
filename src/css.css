@@ -1,20 +1,12 @@
 body, html{
     font-family: Helvetica;
 }
-.container{
-    background-color: rgb(171, 176, 177);
-    display: flex;
-    justify-content: space-around; 
-    align-items: center;
-    flex-direction: column;
-}
-
-.container1{
-    display: flex; 
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-}
-.item{
-    background-color: black;
+.container {
+    grid-template-columns: 100px 50px 100px;
+    grid-template-rows: 80px auto 80px; 
+    column-gap: 10px;
+    row-gap: 15px;
+  }
+.item-a {
+   place-self: center;
 }
